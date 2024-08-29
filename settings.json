@@ -1,11 +1,12 @@
 {
-  // Theme
-  "workbench.colorTheme": "React Theme",
+  "workbench.colorTheme": "Kanagawa",
   "workbench.iconTheme": "eq-material-theme-icons-light",
   "material-icon-theme.files.color": "#42a5f5",
 
   // Typographie
   "editor.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.lineHeight": 1.5,
   "editor.fontSize": 14,
 
   // Base setting
@@ -29,6 +30,7 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
+  "editor.smoothScrolling": true,
 
   // Noise
   "editor.stickyScroll.enabled": false,
@@ -70,8 +72,14 @@
   "codesnap.showLineNumbers": false,
   "codesnap.roundedCorners": true,
   "editor.padding.top": 16,
-  "editor.lineHeight": 23,
+  "editor.lineHeight": 1.5,
   "workbench.sideBar.location": "right",
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+  "editor.semanticHighlighting.enabled": true,
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
 
   // Toggle excluded files
   "files.exclude": {
@@ -117,8 +125,5 @@
   "apc.imports": ["file:///C:/Users/OneUp/Desktop/Dev/custom-vscode.css"],
   "apc.stylesheet": {
     ".titlebar-center": "display: none !important"
-  },
-
-  "terminal.integrated.env.windows": {},
-  "console-ninja.featureSet": "Community"
+  }
 }
