@@ -123,7 +123,11 @@
 
   // Custom CSS & JS
   "apc.imports": ["file:///C:/Users/OneUp/Desktop/Dev/custom-vscode.css"],
-  "apc.stylesheet": {
-    ".titlebar-center": "display: none !important"
-  }
+
+  // Git settings
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.graph.layout": "editor"
 }
