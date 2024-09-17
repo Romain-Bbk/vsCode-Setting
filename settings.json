@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Kanagawa",
+  "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "eq-material-theme-icons-light",
   "material-icon-theme.files.color": "#42a5f5",
 
@@ -77,6 +77,8 @@
   "editor.semanticTokenColorCustomizations": {
     "enabled": true
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "errorLens.enabledDiagnosticLevels": ["warning", "info", "error"],
   "editor.semanticHighlighting.enabled": true,
   "terminal.integrated.env.windows": {},
   "console-ninja.featureSet": "Community",
@@ -122,7 +124,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   // Custom CSS & JS
-  "apc.imports": ["file:///C:/Users/OneUp/Desktop/Dev/custom-vscode.css"],
+  "apc.imports": ["file:///C:/Your/Path"],
 
   // Git settings
   "git.confirmSync": false,
